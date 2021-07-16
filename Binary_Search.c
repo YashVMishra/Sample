@@ -18,7 +18,7 @@ int main() {
             printf("Number found");
             break;
         }
-        else if(arr[mid]>findnum) {
+        else if(arr[mid] > findnum) {
             end=mid-1;
         }
         else {
